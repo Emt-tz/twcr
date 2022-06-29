@@ -1631,7 +1631,8 @@ section {
 
 .team .member .member-info {
   position: absolute;
-  bottom: -50px;
+  top: 15em;
+  bottom: -99px;
   left: 20px;
   right: 20px;
   background: #981d20;
