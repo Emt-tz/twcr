@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(149, 75, 8, 0.8);
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled .logo a {
-  color: #fbb640;
+  color: #fff;
 }
 
 #header .logo {
@@ -187,11 +187,15 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fbb640;
+  color: #fff;
   transition: 0.3s;
   font-size: 14px;
   padding: 0 3px;
   font-family: "Open Sans", sans-serif;
+}
+
+#header.header-scrolled .nav-menu a {
+  color: #000;
 }
 
 .nav-menu > ul > li > a:before {
@@ -432,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";  
-  background-image: linear-gradient(to right, rgba(149, 75, 8, 0.8), rgba(136, 55, 1, 0.8));
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
   position: absolute;
   bottom: 0;
   top: 0;
@@ -453,7 +457,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color: #fbb640;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -465,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #fbb640;
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
@@ -474,6 +478,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
+  color: #fbb640;
   font-size: 48px;
   line-height: 1;
   width: auto;
@@ -491,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #fbb640;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #f6b024;
