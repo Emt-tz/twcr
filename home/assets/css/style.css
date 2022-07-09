@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";  
-  background-image: linear-gradient(to right, rgba(149, 75, 8, 0.8), rgba(255, 255, 255, 0.4));
+  background-image: linear-gradient(to right, rgba(149, 75, 8, 0.8), rgba(136, 55, 1, 0.8));
   position: absolute;
   bottom: 0;
   top: 0;
