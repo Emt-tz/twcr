@@ -420,11 +420,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 85vh;
   overflow: hidden;
   position: relative;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  background-attachment: fixed;
   position: relative;
   /* margin-bottom: 0px; */
 }
@@ -1143,14 +1144,15 @@ section {
   background: #fff;
 }
 
-.services .icon-box i {
+/* .services .icon-box i {
   float: left;
   color: #954b08;
   font-size: 40px;
-}
+  background-image: linear-gradient(#fbb640, #981d20) !important;
+} */
 
 .services .icon-box h4 {
-  margin-left: 70px;
+  /* margin-left: 70px; */
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1166,7 +1168,7 @@ section {
 }
 
 .services .icon-box p {
-  margin-left: 70px;
+  /* margin-left: 70px; */
   line-height: 24px;
   font-size: 14px;
 }
